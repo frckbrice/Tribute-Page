@@ -18,7 +18,7 @@ h1 {
 .figure {
   padding: 10px 45px;
   background-color: #fff;
-  margin: auto 10px;
+  margin: auto 10px 20px;
 }
 
 .img {
@@ -32,18 +32,42 @@ figcaption {
   margin: 8px auto;
 }
 
-.list-text {
+h3 {
+  margin: 5% auto 20px;
+}
+
+div.list-text {
   display: flex;
   justify-content: center;
+  padding: auto;
+  margin-top: 10px;
   align-items: center;
 }
 
-.list {
+ul {
   text-align: left;
   width: 45%;
+  line-height: 1.7rem;
+  /* margin: 50px 28%; */
+  margin: 0 20px;
+  padding: 0px;
 }
 
 li {
-  line-height: 20px;
-  display: inline-block;
+  display: block;
+  padding:0 10px;
+  margin: 15px;
 }
+
+blockquote {
+  text-align: left;
+  width: 45%;
+  margin: 0 28%;
+}
+
+a {
+  color: rgb(81, 81, 156);
+  /* text-decoration: none; */
+}
+
+
