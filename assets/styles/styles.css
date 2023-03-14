@@ -1,0 +1,49 @@
+body {
+  font-family:  sans-serif, 'Montserrat';
+  padding: 30px 10px 30px;
+  margin: 0;
+}
+
+#main-backg {
+  background-color: #eee;
+  padding: 15px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 30px;
+}
+
+.figure {
+  padding: 10px 45px;
+  background-color: #fff;
+  margin: auto 10px;
+}
+
+.img {
+  margin: 0 40px 4px;
+  width: 90%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+  margin: 8px auto;
+}
+
+.list-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  text-align: left;
+  width: 45%;
+}
+
+li {
+  line-height: 20px;
+  display: inline-block;
+}
