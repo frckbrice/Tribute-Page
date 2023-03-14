@@ -49,7 +49,7 @@ ul {
   width: 48%;
   line-height: 1.7rem;
 
-  /* margin: 50px 28%; */
+  /* margin: 50px 28%; cette methode fonctionne aussi. il suffit de retirer le div plus haut et decomenter */
 
   margin: 0 20px 30px;
   padding: 0;
@@ -70,4 +70,10 @@ blockquote {
 
 a {
   color: rgb(81 81 156);
+}
+
+@media screen and (max-width: 770px) {
+  ul {
+    width: auto;
+  }
 }
