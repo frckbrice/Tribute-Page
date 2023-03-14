@@ -1,6 +1,6 @@
 body {
-  font-family:  sans-serif, 'Montserrat';
-  padding: 30px 10px 30px;
+  font-family: sans-serif, "Montserrat";
+  padding: 30px 10px;
   margin: 0;
 }
 
@@ -48,14 +48,16 @@ ul {
   text-align: left;
   width: 45%;
   line-height: 1.7rem;
+
   /* margin: 50px 28%; */
+
   margin: 0 20px;
-  padding: 0px;
+  padding: 0;
 }
 
 li {
   display: block;
-  padding:0 10px;
+  padding: 0 10px;
   margin: 15px;
 }
 
@@ -66,8 +68,7 @@ blockquote {
 }
 
 a {
-  color: rgb(81, 81, 156);
+  color: rgb(81 81 156);
+
   /* text-decoration: none; */
 }
-
-
