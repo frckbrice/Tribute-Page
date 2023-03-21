@@ -1,6 +1,6 @@
 body {
-  font-family:  sans-serif, 'Montserrat';
-  padding: 30px 10px 30px;
+  font-family: sans-serif;
+  padding: 30px 10px;
   margin: 0;
 }
 
@@ -18,7 +18,7 @@ h1 {
 .figure {
   padding: 10px 45px;
   background-color: #fff;
-  margin: auto 10px;
+  margin: auto 10px 20px;
 }
 
 .img {
@@ -32,18 +32,47 @@ figcaption {
   margin: 8px auto;
 }
 
-.list-text {
+h3 {
+  margin: 5% auto 20px;
+}
+
+div.list-text {
   display: flex;
   justify-content: center;
+  padding: auto;
+  margin-top: 10px;
   align-items: center;
 }
 
-.list {
+ul {
   text-align: left;
-  width: 45%;
+  width: 48%;
+  line-height: 1.7rem;
+
+  /* margin: 50px 28%; cette methode fonctionne aussi. il suffit de retirer le div plus haut et decomenter */
+
+  margin: 0 20px 30px;
+  padding: 0;
 }
 
 li {
-  line-height: 20px;
-  display: inline-block;
+  padding: 0 10px;
+  margin: 15px;
+}
+
+blockquote {
+  text-align: left;
+  width: 45%;
+  margin: 0 28%;
+  line-height: 1.5rem;
+}
+
+a {
+  color: rgb(81 81 156);
+}
+
+@media screen and (max-width: 770px) {
+  ul {
+    width: auto;
+  }
 }
